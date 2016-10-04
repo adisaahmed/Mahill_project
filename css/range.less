@@ -1,0 +1,265 @@
+@color0: #000000; // Appears 12 times
+@color1: #ffffff; // Appears 12 times
+
+// Width variables (appears count calculates by raw css)
+@width3: 100%; // Appears 6 times
+
+// Height variables (appears count calculates by raw css)
+@height4: 150px; // Appears 2 times
+@height10: 40px; 
+
+
+
+
+@import 'https://fonts.googleapis.com/css?family=Cardo';
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	.body_wrapper {
+		background-color: #f5f5f5;
+		height: auto;
+		background-size: auto 100%;
+		.main_body {
+			background-color: #fff;
+			header {
+				height: 80px;
+				width: 100%;
+				background-color: #fff;
+				font-family: 'Cardo', serif;
+				.logo {
+					background-image: url(../images/logoded.png);
+				    height: 80px;
+				    background-size: auto 100%;
+				    background-repeat: no-repeat;
+				    float: left;
+				    width: 50%;
+				}
+				.chart {
+					float: right;
+					width: 50%;
+					height: 80px;
+					span {
+						float: right;
+					    line-height: 80px;
+					    margin-right: 25px;
+					    font-size: 20px;
+					}
+				}
+			}
+			.banner_wrapper {
+				height: 400px;
+				width: 100%;
+				.banner {
+					height: 400px;
+					background-size: cover;
+					background-image: url("../images/tropical.jpg");
+				}
+			}
+			.product_head {
+				height: 60px;
+				background-color: red;
+				margin-top: 40px;
+				margin-bottom: 40px;
+				h1 {
+					text-align: center;
+				    text-transform: uppercase;
+				    margin-top: 0;
+				    margin-bottom: 0;
+				    font-size: 20px;
+				    line-height: 60px;
+				    font-weight: 600;
+				    color: #fff;
+				    font-family: 'Cardo', serif;
+				}
+			}
+			.rowroll {
+				margin-bottom: 40px;
+			}
+			.row {
+				.col-md-3 {
+					.product {
+						width: 100%;
+						height: 300px;
+						border: 1px solid #e1dfdf;
+						padding: 10px;
+						box-shadow:  0 0 2px 1px #ddd;
+						font-family: 'Cardo', serif;
+						table {
+							width: 100%;
+							tr {
+								.first_td {
+									height: 202px;
+									max-height: 202px;
+									overflow: hidden;
+									.image_one {
+										background-image: url("../images/1.jpg");
+										height: 202px;
+										background-size: 100% auto;
+									}
+									.image_two {
+										background-image: url("../images/2.jpg");
+										height: 202px;
+										background-size: 100% auto;
+										background-repeat: no-repeat;
+									}
+									.image_three {
+										background-image: url("../images/3.jpg");
+										height: 202px;
+										background-size: 100% auto;
+									}
+									.image_four {
+										background-image: url("../images/4.jpg");
+										height: 202px;
+										background-size: 100% auto;
+									}
+									.image_five {
+										background-image: url("../images/5.jpg");
+										height: 202px;
+										background-size: 100% auto;
+									}
+									.image_six {
+										background-image: url("../images/6.jpg");
+										height: 202px;
+										background-size: 100% auto;
+										background-repeat: no-repeat;
+									}
+									.image_seven {
+										background-image: url("../images/7.jpg");
+										height: 202px;
+										background-size: 100% auto;
+										background-repeat: no-repeat;
+									}
+									.image_eight {
+										background-image: url("../images/8.jpg");
+										height: 202px;
+										background-size: 100% auto;
+									}
+								}
+								.second_td {
+									height: 95px;
+									max-height: 95px;
+									overflow: hidden;
+									vertical-align: top;
+									h1 {
+										font-size: 15px;
+										padding-top: 10px;
+										text-align: center;
+										text-transform: uppercase;
+										font-weight: 600;
+										margin-top: 0px;
+									}
+									.price_button {
+										width: 100%;
+										height: 45px;
+										line-height: 40px;
+										.price {
+											float: left;
+											font-size: 15px;
+										}
+										.button {
+											float: right;
+											button {
+												width: 100px;
+												border: none;
+												border-radius: 5px;
+												text-transform: uppercase;
+												font-weight: 600;
+												outline: none;
+												&:hover {
+													background-color: red;
+													color: #fff;
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			footer {
+				background-color: @color0;
+				height: 230px;
+				.container {
+					.row {
+						.col-md-6 {
+							.content_wrap {
+								padding: 20px;
+								width: @width3;
+								.follow_us{
+									p {
+										font-weight: 600;
+										font-size: 20px;
+										color: #fff;
+									}
+								}
+								.social_icon {
+									ul {
+										padding-left: 0px;
+										li {
+											display: inline;
+											font-size: 31px;
+											margin-right: 10px;
+											a {
+												.fa {
+													&:hover {
+														color: red;
+													}
+												}
+											}
+										}
+									}
+								}
+								ul {
+									padding-left: 0px;
+									li {
+										display: inline-block;
+										margin-right: 20px;
+										font-weight: 600;
+										font-size: 20px;
+										a {
+											text-transform: uppercase;
+											color: #fff;
+											text-decoration: none;
+											&:hover {
+												color: red;
+											}
+										}
+									}
+								}
+								p {
+									text-transform: capitalize;
+									color: #fff;
+								}
+								form {
+									margin-top: 20px;
+									input {
+										width: 60%;
+									    height: 50px;
+									    padding: 10px;
+									    border: none;
+									    border-radius: 5px;
+									    float: left;
+									}
+									.button {
+										float: right;
+										width: 30%;
+										margin-right: 20px;
+									}
+								}
+							}
+						}
+					}
+				}
+				.copy_right {
+					text-align: center;
+					color: #fff;
+					font-size: 13px;
+				}
+			}
+		}
+	}
+}

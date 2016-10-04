@@ -1,0 +1,141 @@
+@import 'https://fonts.googleapis.com/css?family=Cormorant+Garamond';
+*{
+	box-sizing: border-box;
+	text-decoration: none;
+}
+body{
+    position: relative;
+    margin: 0px;
+    z-index: 100;
+    margin: 0px !important;
+    font-family: 'Cormorant Garamond', serif;
+}                                                                                                                                                                                                                                                                                                                                
+header{
+    height: 80px;
+    background-color:#fff;
+    width: 100%;
+    border-bottom: 0px;
+    z-index: 10;
+/*    position: fixed;
+*/    font-family: 'Cormorant Garamond', serif;
+}
+.logo{
+    background-image: url(../images/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    height: 80px;
+    width: 50%;
+}
+.logo{
+	float: left;
+	padding-top: 10px;
+}
+.us{
+    text-transform: uppercase;
+    color: #000 !important;
+    font-size: 40px !important;
+    padding-top: 80px !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    font-family: 'Cormorant Garamond', serif;
+}
+.row{
+/*    border: 2px solid grey;
+*/    width: 100%;
+    height: 50px;
+}
+.input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 30px;
+    margin-top: 20px;
+    outline: none;
+    font-size: 20px;
+    font-style: all;
+    margin-bottom: 20px;
+    
+}
+footer{
+    height: 331px;
+    width: 100%;
+    background-color: #000;
+    margin-top: 648px;
+    padding-top: 2px;
+}
+.content_wrap {
+    width: 100%;
+    padding-top: 40px;
+}
+strong{
+    color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+}
+li{
+    list-style: none;
+    font-size: 31px;
+    display: inline;
+    margin: 10px;
+}
+.fa{
+    color: #fff;
+}
+.fa:hover{
+    background-color: #000;
+    color: blue;
+}
+.input_des{
+    border-radius: 3px;
+
+}
+.us{
+    display: inline;
+    color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+    text-decoration: none !important;
+    font-size: 20px;
+}
+.atc{
+    color: #fff;
+    text-decoration: none !important;
+    font-size: 20px;
+}
+.ran{
+    color: #fff;
+    text-decoration: none !important;
+    font-size: 20px;
+}
+.lu{
+    text-decoration: none;
+}
+p{
+    color: #fff;
+    padding-bottom: 33px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+input{
+    width: 80%;
+    height: 40px;
+    border-radius: 3px;
+    float: left;
+    border: 0px;
+}
+button{
+    border-radius: 4px;
+    float: right;
+    color: black;
+    height: 40px;
+    border: 0px;
+}
+.but{
+    text-decoration: none !important;
+    color: black;
+}
+.copy{
+    color: #fff;
+    padding-top: 168px;
+}
